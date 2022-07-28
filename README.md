@@ -16,6 +16,7 @@
 ## История изменений
 Release 20220729:
 - feat(./):приложение переработано для работы с NGINX, Postgresql и подготовлено для контейнеризации при помощи Docker
+
 Release 20220706:
 * fix(./api_yamdb/api/): поправлен линтинг в сериализаторах, вьюсеты CategoryViewSet и GenreViewSet переписаны согласно принципу DRY 
 * fix(./api_yamdb/api_yamdb/): минорные изменения в конфиге settings.py
