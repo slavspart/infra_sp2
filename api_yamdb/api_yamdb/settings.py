@@ -10,7 +10,7 @@ load_dotenv(dotenv_path='infra/.env')
 SECRET_KEY = os.getenv('SECRET_KEY', 'DEFAULT_KEY')
 # устанавливаем дефолтное значение, на случай, если не подгрузится .env
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = os.getenv('HOSTS', default='127.0.0.1').split(',')
 

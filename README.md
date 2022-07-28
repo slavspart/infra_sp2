@@ -1,8 +1,11 @@
 # YaMDb
 
 [Описание](#описание) /
-[История изменений](#история_изменений) /
-[Запуск в контейнере Docker](#запуск в контейнере Docker) /
+
+[История изменений](#история-изменений) /
+
+[Запуск в Docker](#запуск-в-docker) /
+
 [Документация](#документация)
 
 
@@ -13,7 +16,7 @@
 * <a href="https://github.com/oitczvovich" target="_blank">oitczvovich</a>
 * <a href="https://github.com/avtorsky" target="_blank">avtorsky</a>
 
-## История изменений
+## История_изменений
 Release 20220729:
 - feat(./):приложение переработано для работы с NGINX, Postgresql и подготовлено для контейнеризации при помощи Docker
 
@@ -41,7 +44,7 @@ Release 20220623:
 Release 20220620:
 * docs(./README.md): настройка git, определение ролей в команде
 
-## Запуск в контейнере Docker
+## Запуск в Docker
 
 ```bash
 git clone https://github.com/slavspart/infra_sp2.git
