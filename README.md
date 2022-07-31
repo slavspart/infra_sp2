@@ -16,7 +16,7 @@
 * <a href="https://github.com/oitczvovich" target="_blank">oitczvovich</a>
 * <a href="https://github.com/avtorsky" target="_blank">avtorsky</a>
 
-## История_изменений
+## История изменений
 Release 20220729:
 - feat(./):приложение переработано для работы с NGINX, Postgresql и подготовлено для контейнеризации при помощи Docker
 
@@ -51,7 +51,7 @@ git clone https://github.com/slavspart/infra_sp2.git
 cd infra/
 ```
 
-Создать локально файл окружения .env, в который записать SECRET_KEY, HOSTS, DB_ENGINE,DB_NAME, POSTGRES_USER, POSTGRES_PASSWORD, DB_HOST, DB_PORT далее продолжить:
+Создать локально файл окружения .env, по образцу env.template далее продолжить:
 
 ```bash
 docker-compose up -d --build
